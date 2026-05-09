@@ -1,0 +1,7 @@
+frontend/node_modules
+.env
+backend/config.json
+backend/history.json
+backend/tg_session.session
+pass
+backend/__pycahce__
