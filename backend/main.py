@@ -13,7 +13,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000", "https://vortx-tg-forward.pages.dev"],
+    allow_origins=["http://localhost:5173", "http://localhost:3000", "PUT_YOUR_CLOUDFLARE_PAGES_URL_HERE"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
